@@ -38,7 +38,9 @@
         "extensions": [
             "mp4",
             "mkv",
-            "flv"
+            "flv",
+            "3gp",
+            "avi"
         ]
     },
     "documents": {
