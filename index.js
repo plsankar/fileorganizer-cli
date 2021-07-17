@@ -5,13 +5,16 @@ const program = require("commander");
 const packageJson = require("./package.json");
 const { organizeDir } = require("./organizer");
 
+program.version(packageJson.version).description(packageJson.description);
+
 program
-    .version(packageJson.version)
-    .description(packageJson.description)
+    .command("organize", { isDefault: true })
+    .description("Organize files in the current directory")
     .option("-l, --log", "Generate Log file", false)
     .option("-d, --date", "Use date separation.", false)
-    .parse();
+    .action((options) => {
+        const { log, date } = options;
+        organizeDir(path.resolve(process.cwd()), log, date);
+    });
 
-const { log, date } = program.opts();
-
-organizeDir(path.resolve(process.cwd()), log, date);
+program.parse(process.argv);
