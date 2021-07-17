@@ -2,6 +2,12 @@
 
 A Simple CLI File Organizer
 
+## Usage
+
+```shell
+filemanager -d -l
+```
+
 ## Options
 
 `-d, --date`
