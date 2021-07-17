@@ -1,0 +1,100 @@
+{
+    "codes": {
+        "folder": "Codes",
+        "dateSeparation": true,
+        "extensions": [
+            "js",
+            "jsx",
+            "json",
+            "ts",
+            "tsx",
+            "html",
+            "htm",
+            "xml",
+            "xhtml",
+            "css",
+            "scss",
+            "php",
+            "sql",
+            "md"
+        ]
+    },
+    "images": {
+        "folder": "Images",
+        "dateSeparation": true,
+        "extensions": [
+            "jpg",
+            "jpeg",
+            "webp",
+            "png",
+            "gif",
+            "jfif",
+            "svg"
+        ]
+    },
+    "videos": {
+        "folder": "Videos",
+        "dateSeparation": true,
+        "extensions": [
+            "mp4",
+            "mkv",
+            "flv"
+        ]
+    },
+    "documents": {
+        "folder": "Documents",
+        "dateSeparation": true,
+        "extensions": [
+            "pdf",
+            "rtf",
+            "docx",
+            "doc",
+            "ppt",
+            "xlsx",
+            "pptx",
+            "xls",
+            "csv"
+        ]
+    },
+    "archives": {
+        "folder": "Archives",
+        "dateSeparation": false,
+        "extensions": [
+            "rar",
+            "zip",
+            "7z",
+            "tgz"
+        ]
+    },
+    "music": {
+        "folder": "Music",
+        "dateSeparation": false,
+        "extensions": [
+            "mp3",
+            "wav"
+        ]
+    },
+    "subtitles": {
+        "folder": "Subtitles",
+        "dateSeparation": false,
+        "extensions": [
+            "srt",
+            "sub"
+        ]
+    },
+    "softwares": {
+        "folder": "Softwares",
+        "dateSeparation": false,
+        "extensions": [
+            "exe",
+            "msi"
+        ]
+    },
+    "android": {
+        "folder": "Android",
+        "dateSeparation": false,
+        "extensions": [
+            "apk"
+        ]
+    }
+}

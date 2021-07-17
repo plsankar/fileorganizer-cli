@@ -1,0 +1,16 @@
+{
+  "name": "fileorganizer",
+  "version": "1.0.0",
+  "description": "A Simple CLI File Organizer",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {},
+  "author": "plsankar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "moment": "^2.29.1"
+  }
+}
