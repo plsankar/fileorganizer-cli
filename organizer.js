@@ -22,7 +22,7 @@ const getConfigForExtension = (ext) => {
 const organizeFile = (child, childPath, workingDir, useDate) => {
     const extension = path.extname(childPath);
     if (extension === "") {
-        log(`${chalk.bold.blue(child)} - - Skipped ( No Extension )`);
+        printStat(child, chalk.yellow.bold("Skipped ( No Extension )"));
         return;
     }
     const configForExtension = getConfigForExtension(extension.replace(".", ""));
@@ -35,7 +35,6 @@ const organizeFile = (child, childPath, workingDir, useDate) => {
         fileFolder = path.resolve(fileFolder, today);
     }
     if (!fs.existsSync(childPath)) {
-        log(`${chalk.bold.blue(child)} - ${chalk.green(extension)} - `);
         printStat(child, chalk.red.bold("Error ( File Not Found )"));
         return;
     }
