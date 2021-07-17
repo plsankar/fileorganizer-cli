@@ -5,7 +5,7 @@ A Simple CLI File Organizer
 ## Usage
 
 ```shell
-filemanager -d -l
+fileorganizer -d -l
 ```
 
 ## Options
