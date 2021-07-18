@@ -31,7 +31,7 @@ const organizeFile = (child, childPath, workingDir, useDate) => {
         return;
     }
     let fileFolder = path.resolve(workingDir, configForExtension.folder);
-    if (configForExtension.dateSeparation === true && useDate) {
+    if (useDate === true) {
         fileFolder = path.resolve(fileFolder, today);
     }
     if (!fs.existsSync(childPath)) {
