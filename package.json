@@ -6,11 +6,25 @@
   "preferGlobal": true,
   "bin": "./index.js",
   "scripts": {},
-  "author": "plsankar",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "commander": "^8.0.0",
     "moment": "^2.29.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plsankar/fileorganizer-cli.git"
+  },
+  "keywords": [
+    "files",
+    "folders",
+    "organizer",
+    "fileorganizer"
+  ],
+  "author": "plsankar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plsankar/fileorganizer-cli/issues"
+  },
+  "homepage": "https://github.com/plsankar/fileorganizer-cli#readme"
 }
