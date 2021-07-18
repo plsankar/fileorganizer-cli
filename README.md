@@ -38,7 +38,7 @@ Generate Log File.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/plsankar/fileorganizer-cli/issues)
 
-### TODO
+## TODO
 
 -   Add Clean Empty Folder Feature
 -   Add Log New Files Locations
