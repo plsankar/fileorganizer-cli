@@ -15,7 +15,8 @@
             "scss",
             "php",
             "sql",
-            "md"
+            "md",
+            "py"
         ]
     },
     "images": {
