@@ -34,6 +34,20 @@ Use Date Separation.
 
 Generate Log File.
 
+## Config
+
+| Config    | Folder    | Extensions                                                                 |
+| --------- | --------- | -------------------------------------------------------------------------- |
+| codes     | Codes     | js, jsx, json, ts, tsx, html, htm, xml, xhtml, css, scss, php, sql, md, py |
+| images    | Images    | jpg, jpeg, webp, png, gif, jfif, svg                                       |
+| videos    | Videos    | mp4, mkv, flv, 3gp, avi                                                    |
+| documents | Documents | pdf, rtf, docx, doc, ppt, xlsx, pptx, xls, csv                             |
+| archives  | Archives  | rar, zip, 7z, tgz                                                          |
+| music     | Music     | mp3, wav                                                                   |
+| subtitles | Subtitles | srt, sub                                                                   |
+| softwares | Softwares | exe, msi                                                                   |
+| android   | Android   | apk                                                                        |
+
 ## Contributing
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/plsankar/fileorganizer-cli/issues)
