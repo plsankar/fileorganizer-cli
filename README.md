@@ -36,17 +36,29 @@ Generate Log File.
 
 ## Config
 
-| Config    | Folder    | Extensions                                                                 |
-| --------- | --------- | -------------------------------------------------------------------------- |
-| codes     | Codes     | js, jsx, json, ts, tsx, html, htm, xml, xhtml, css, scss, php, sql, md, py |
-| images    | Images    | jpg, jpeg, webp, png, gif, jfif, svg                                       |
-| videos    | Videos    | mp4, mkv, flv, 3gp, avi                                                    |
-| documents | Documents | pdf, rtf, docx, doc, ppt, xlsx, pptx, xls, csv                             |
-| archives  | Archives  | rar, zip, 7z, tgz                                                          |
-| music     | Music     | mp3, wav                                                                   |
-| subtitles | Subtitles | srt, sub                                                                   |
-| softwares | Softwares | exe, msi                                                                   |
-| android   | Android   | apk                                                                        |
+| Folder    | Extensions                                                                 |
+| --------- | -------------------------------------------------------------------------------------- |
+| Codes     | js, jsx, json, ts, tsx, html, htm, xml, xhtml, css, scss, php, py, ts, tsx, yml, class |
+| Images    | jpg, jpeg, webp, png, gif, jfif, svg, tiff, ico, heic                                  |
+| Videos    | mkv, mp4, 3gp, flv, m4v, avi, mpg                                                      |
+| Documents | pdf, rtf, docx, doc, ppt, xlsx, pptx, xls, csv, gsheet, odt                            |
+| Archives  | rar, zip, 7z, tgz, zipx                                                                |
+| Music     | mp3, wav                                                                               |
+| Subtitles | srt, sub                                                                               |
+| Softwares | exe, msi, dmg, pkg                                                                     |
+| Android   | apk, xpak, obb                                                                         |
+| Log       | log                                                                                    |
+| Photoshop | psd                                                                                    |
+| Vectors   | ai, svg, eps                                                                           |
+| Fonts     | ttf, otf, woff                                                                         |
+| Text      | txt                                                                                    |
+| Database  | sql, sqlite                                                                            |
+| Torrent   | torrent, btsearch                                                                      |
+| Comics    | cbr, cbz                                                                               |
+| SketchUp  | skp                                                                                    |
+| AutoCAD   | dwg                                                                                    |
+| Markdown  | md, mdx                                                                                |
+
 
 ## Contributing
 
