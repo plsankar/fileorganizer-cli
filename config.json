@@ -14,9 +14,11 @@
             "css",
             "scss",
             "php",
-            "sql",
-            "md",
-            "py"
+            "py",
+            "ts",
+            "tsx",
+            "yml",
+            "class"
         ]
     },
     "images": {
@@ -28,7 +30,10 @@
             "png",
             "gif",
             "jfif",
-            "svg"
+            "svg",
+            "tiff",
+            "ico",
+            "heic"
         ]
     },
     "videos": {
@@ -38,7 +43,10 @@
             "mkv",
             "flv",
             "3gp",
-            "avi"
+            "avi",
+            "m4v",
+            "webm",
+            "mpg"
         ]
     },
     "documents": {
@@ -52,7 +60,9 @@
             "xlsx",
             "pptx",
             "xls",
-            "csv"
+            "csv",
+            "gsheet",
+            "odt"
         ]
     },
     "archives": {
@@ -61,7 +71,8 @@
             "rar",
             "zip",
             "7z",
-            "tgz"
+            "tgz",
+            "zipx"
         ]
     },
     "music": {
@@ -82,13 +93,91 @@
         "folder": "Softwares",
         "extensions": [
             "exe",
-            "msi"
+            "msi",
+            "dmg",
+            "pkg"
         ]
     },
     "android": {
         "folder": "Android",
         "extensions": [
-            "apk"
+            "apk",
+            "xapk",
+            "obb"
+        ]
+    },
+    "log": {
+        "folder": "Logs",
+        "extensions": [
+            "log"
+        ]
+    },
+    "photoshop": {
+        "folder": "PSDs",
+        "extensions": [
+            "psd"
+        ]
+    },
+    "vectors": {
+        "folder": "Vectors",
+        "extensions": [
+            "ai",
+            "svg",
+            "eps"
+        ]
+    },
+    "fonts": {
+        "folder": "fonts",
+        "extensions":[
+            "ttf",
+            "otf",
+            "woff"
+        ]
+    },
+    "text": {
+        "folder": "Texts",
+        "extensions": [
+            "txt"
+        ]
+    },
+    "database": {
+        "folder": "Database",
+        "extensions": [
+            "sql",
+            "sqlite"
+        ]
+    },
+    "torrents": {
+        "folder": "Torrents",
+        "extensions": [
+            "torrent",
+            "btsearch"
+        ]
+    },
+    "Comics": {
+        "folder": "Comics",
+        "extensions": [
+            "cbr",
+            "cbz"
+        ]
+    },
+    "sketchup": {
+        "folder": "SketchUp",
+        "extensions": [
+            "skp"
+        ]
+    },
+    "autocad": {
+        "folder": "AutoCAD",
+        "extensions": [
+            "dwg"
+        ]
+    },
+    "markdown": {
+        "folder": "Markdown",
+        "extensions": [
+            "md",
+            "mdx"
         ]
     }
 }
