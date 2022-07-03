@@ -1,6 +1,6 @@
 {
   "name": "@plsankar/fileorganizer",
-  "version": "1.2",
+  "version": "1.1",
   "description": "A Simple CLI File Organizer",
   "main": "index.js",
   "preferGlobal": true,
